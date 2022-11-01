@@ -1,0 +1,8 @@
+https://github.com/vuejs-kr/kr.vuejs.org
+
+1. 해당 git Fork해서 본인 컴퓨터에 clone
+2. ssafy documnet - node.js 가이드에 맞춰서 설치
+3. clone 처리한 폴더를 vscode로 열고 터미널
+4. $ npm install
+5. $npm start
+6. 하면 기존 문서를 열람할 수 있는 서버가 열림
