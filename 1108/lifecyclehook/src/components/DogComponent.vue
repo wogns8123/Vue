@@ -5,6 +5,7 @@
   </div>
 </template>
 
+
 <script>
 import axios from 'axios'
 
@@ -32,19 +33,6 @@ export default {
         })
     }
   },
-  created() {
-    this.getDogImage()
-    console.log('child created')
-  },
-  mounted() {
-    const button = document.querySelector('button')
-    button.innerText = '멍멍'
-    console.log('child mounted!')
-  },
-  updated(){
-    console.log('새로운 강아지')
-    console.log('child updated!')
-  }
 }
 </script>
 
