@@ -8,7 +8,7 @@
 <script>
 export default {
     name:'TodoListItem',
-    promps: {
+    props: {
         todo: Object,
     },
     methods: {
