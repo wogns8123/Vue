@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import ArticleView from '@/views/ArticleView'
-// import CreateView from '@/views/CreateView'
-// import DetailView from '@/views/DetailView'
-// import SignUpView from '@/views/SignUpView'
-// import LogInView from '@/views/LogInView'
+import CreateView from '@/views/CreateView'
+import DetailView from '@/views/DetailView'
+import SignUpView from '@/views/SignUpView'
+import LogInView from '@/views/LogInView'
 
 
 Vue.use(VueRouter)
@@ -16,29 +16,29 @@ const routes = [
     component: ArticleView
   },
  
-  // {
-  //   path: '/create',
-  //   name: 'CreateView',
-  //   component: CreateView
-  // },
+  {
+    path: '/create',
+    name: 'CreateView',
+    component: CreateView
+  },
 
-  // {
-  //   path: '/signup',
-  //   name: 'SignUpView',
-  //   component: SignUpView
-  // },
+  {
+    path: '/signup',
+    name: 'SignUpView',
+    component: SignUpView
+  },
 
-  // {
-  //   path: '/login',
-  //   name: 'LogInView',
-  //   component: LogInView
-  // },
+  {
+    path: '/login',
+    name: 'LogInView',
+    component: LogInView
+  },
 
-  // {
-  //   path: '/:id',
-  //   name: 'DetailView',
-  //   component: DetailView,
-  // },
+  {
+    path: '/:id',
+    name: 'DetailView',
+    component: DetailView,
+  },
 
 ]
 

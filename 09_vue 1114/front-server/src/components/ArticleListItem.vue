@@ -1,7 +1,9 @@
 <template>
   <div>
     <h5>{{article.id}}</h5>
+    <p>작성자 : {{article.username}}</p>
     <h5>{{article.title}}</h5>
+    <router-link :to="{ name:'DetailView', params:{id: article.id}}">[Detail]</router-link>
     
     <hr>
   </div>
@@ -9,7 +11,7 @@
 
 <script>
 export default {
-  name: 'ArticleListItem',
+  name: 'ArticleListItem', 
   props: {
     article: Object,
   }
